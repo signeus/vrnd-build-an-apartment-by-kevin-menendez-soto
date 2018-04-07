@@ -14,13 +14,13 @@ public class TriggerAnimation : MonoBehaviour
 	void Update ()
 	{
 		// If the player pressed the cardboard button (or touched the screen), set the trigger parameter to active (until it has been used in a transition)
-		if (Input.GetMouseButtonDown (0)) {
-			animator.SetTrigger (triggerName);
-		}
+		if (Input.GetMouseButtonDown (0))
+        {
+            animator.SetBool(triggerName, !animator.GetBool(triggerName));
+        }
         if (Input.GetMouseButtonDown(1))
         {
             animator.SetBool(triggerName, !animator.GetBool(triggerName));
-            //animator.SetTrigger(triggerName, animator.GetBool(triggerName));
         }
     }
 }
