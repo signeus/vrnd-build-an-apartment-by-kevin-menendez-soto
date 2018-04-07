@@ -17,5 +17,10 @@ public class TriggerAnimation : MonoBehaviour
 		if (Input.GetMouseButtonDown (0)) {
 			animator.SetTrigger (triggerName);
 		}
-	}
+        if (Input.GetMouseButtonDown(1))
+        {
+            animator.SetBool(triggerName, !animator.GetBool(triggerName));
+            //animator.SetTrigger(triggerName, animator.GetBool(triggerName));
+        }
+    }
 }

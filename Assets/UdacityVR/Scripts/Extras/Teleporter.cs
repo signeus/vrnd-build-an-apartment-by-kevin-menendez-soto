@@ -7,9 +7,9 @@ using System.Collections;
 public class Teleporter : MonoBehaviour
 {
 	[Tooltip ("How tall is the player, in meters?")]
-	public float height = 1.75f;
+	public float height = 1.84f;
 	[Tooltip ("How fast to move to new location?")]
-	public float speed = 10.0f;
+	public float speed = 2.0f;
 
 	private Transform[] waypoints;
 	// Cached transforms for all waypoints
