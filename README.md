@@ -7,6 +7,8 @@
 	- Project Settings folder
 	- README.md
 	- LICENSE
+	- Build.zip
+	- screenshot Android
 
 - Versions:
 	- GVR Unity SDK: **v1.70.0**
@@ -26,6 +28,10 @@
 		- [tomaszcgb / Sconce_03 - Personal Use License](https://free3d.com/3d-model/lampsconce-03-43588.html)
 		- [VERTEX STUDIO / Big Furniture Pack - Assets Store Unity](https://assetstore.unity.com/packages/3d/props/furniture/big-furniture-pack-7717)
 		- [ENOZONE / TV Furniture - Assets Store Unity](https://assetstore.unity.com/packages/3d/props/electronics/tv-furniture-60122)
+	- Textures
+		- Minecraft poster
+		- Borderland 2 poster
+		- Gorillaz poster
 	
 - Github
 	- [Signeus / Build an Apartment](https://github.com/signeus/vrnd-build-an-apartment-by-kevin-menendez-soto)
