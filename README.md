@@ -2,6 +2,9 @@
 ## Project 2: Build an Apartment
 #### Term 1 - Date: April 06, 2018
 
+- Platform:
+	- Android
+
 - Included files/folders:
 	- Unity Assets folder
 	- Project Settings folder
@@ -32,6 +35,11 @@
 		- Minecraft poster
 		- Borderland 2 poster
 		- Gorillaz poster
+
+- Details about light settings
+	- Compressed lightmaps [Unchecked]
+		- In my case I unchecked this option. If you chosee this option in Android you will gain less size in the lightmaps file but you don't have a "real" ilumination. I understand that the file size too small generated "yellows" and "greys" like a fake shadows and raw. That appearance is similar to old videogames of 90's but not enough good for a project more realistics.
+		- The reason of this appears in the [Global Illumination from Unity 3D docs](https://docs.unity3d.com/Manual/GlobalIllumination.html), they say the compression process can introduce unwanted visual effects into the texture.
 	
 - Github
 	- [Signeus / Build an Apartment](https://github.com/signeus/vrnd-build-an-apartment-by-kevin-menendez-soto)
